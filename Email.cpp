@@ -2,13 +2,15 @@
 using namespace std;
 int main()
 {
-char fname,lname,email;
-cout<<"Enter your fname : ";
+char fname;
+char lname;
+char email;
+cout<<"Enter your fname : "<<endl;
 cin>>fname;
-cout<<"Enter your lname : ";
+cout<<"Enter your lname : "<<endl;
 cin>>lname;
-cout<<"Enter your email : ";
+cout<<"Enter your email : "<<endl;
 cin>>email;
-cout<<"Enter name is "<<fname<<" "<<lname<<" and email is "<<email;
+cout<<"Your Enter name is "<<fname<<" "<<lname<<" and email is "<<email<<endl;
 return 0;
 }
