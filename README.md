@@ -1,4 +1,3 @@
-<h1 align=center><u><b> C++ Codes</b></u></h1>
-Cpp Codes
+<h1 align=center><b><u>C++ Codes</u></b></h1>
 
-<p
+<p style="color: black"> 200+ practice C++ Codes </p>
