@@ -1,3 +1,18 @@
 <h1 align=center><b><u>C++ Codes</u></b></h1>
+<h3 align=center><b>200+ practice C++ Codes</b></h3>
 
-<p style="color: green;"> 200+ practice C++ Codes </p>
+### Here I have uploaded more than 200 codes which you can be use for you practice work it is all what you learn from a university.
+
+### Check the below list for better knowledge : 
+
+- C++ basic
+- Practice question
+- Array
+- Pointer
+- Linked List
+- Searching
+- Sorting
+- Binary Search Tree
+- Stack & Queue
+- Graph
+- Some Mini Projects
