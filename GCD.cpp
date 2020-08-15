@@ -13,9 +13,7 @@ int gcd(int a,int b)
 }
 int main()
 {
-	int a,b;
-	cout<<"Enter the value of a and b : \n";
-	cin>>a>>b;
-	cout<<"GCD of a and b is : "<<gcd(a,b)<<endl;
+	int a=60,b=24;
+	cout<<"GCD of a and b is : "<<gcd(a,b)<<endl;  // use abs() for negative number
 	return 0;
 }
