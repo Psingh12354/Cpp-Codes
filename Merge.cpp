@@ -8,25 +8,17 @@ void merge(int *arr, int low, int high, int mid)
     j = mid + 1;
     while (i <= mid && j <= high) {
         if (arr[i] < arr[j]) {
-            c[k] = arr[i];
-            k++;
-            i++;
+            c[k++] = arr[i++];
         }
         else  {
-            c[k] = arr[j];
-            k++;
-            j++;
+            c[k++] = arr[j++];
         }
     }
     while (i <= mid) {
-        c[k] = arr[i];
-        k++;
-        i++;
+        c[k++] = arr[i++];
     }
     while (j <= high) {
-        c[k] = arr[j];
-        k++;
-        j++;
+        c[k++] = arr[j++];
     }
     for (i = low; i < k; i++)  {
         arr[i] = c[i];
@@ -45,18 +37,18 @@ void merge_sort(int *arr, int low, int high)
 
 int main()
 {
-    int myarray[30], num;
+    int myarray[30], num,i;
     cout<<"Enter the size : \n";
     cin>>num;
     cout<<"Enter array element : \n";
-    for (int i = 0; i < num; i++) { 
+    for(i=0; i < num; i++) { 
 	cin>>myarray[i];
     }
     merge_sort(myarray, 0, num-1);
     cout<<"Sorted array is\n";
-    for (int i = 0; i < num; i++)
+    for (i=0; i < num; i++)
     {
         cout<<myarray[i]<<" ";
     }
-	return 0;
+return 0;
 }
