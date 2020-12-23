@@ -7,10 +7,6 @@ struct Node{
 void traverse(Node *n){
 	while(n!=NULL)
 	{
-		if(n->next==head)
-		{
-			break;
-		}
 		cout<<n->data<<" ";
 		n=n->next;
 	}
